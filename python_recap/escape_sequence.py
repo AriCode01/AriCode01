@@ -2,9 +2,9 @@
 
 weather = "It's sunny"
 weather1 = "It\'s \"kind of\" sunny"
-weather2 = '\tIt\'s \"kind of \" sunny \n hope youy have a good day"
+weather2 = '\tIt\'s \"kind of \" sunny hope you have a good day'
 
-print("\n" + weather)
-print("\n" + weather1)
-print("\n" + weather2)
+print(weather)
+print(weather1)
+print(weather2)
 
