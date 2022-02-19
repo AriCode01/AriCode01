@@ -26,16 +26,20 @@ print(matrix)
 #------------------------removing-----------------------------------
 # removing elemts from list using .pop() .clear() .remove() methods
 
-matrix.pop()
+matrix.pop()       # by default pops from the end and returna popped value
 print(matrix)
 
-popped = matrix.pop(0)
+popped = matrix.pop(0)  # .pop(index) will pop and rerturn the value at given index
 print(matrix)
 print(popped)
 
-removed = matrix.remove(999)
+removed = matrix.remove(999)  # .remove(val) will remove the first occurance of an
+                              # element in list, returns null
 print(matrix)
 print (removed)
+
+matrix.clear()  # clears the entire list from the memory
+print(matrix)
 
 #----------------------important points---------------------------------------
 
